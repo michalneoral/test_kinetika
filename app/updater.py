@@ -86,7 +86,10 @@ def maybe_update_in_background():
             return
         current = Version(__version__)
         latest = Version(tag)
+        print('Current version:', current)
+        print('Latest version:', latest)
         if latest <= current:
+            print('App is up to date.')
             return  # up to date
 
         exe_asset, checks_asset = pick_windows_installer_asset(release)

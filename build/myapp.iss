@@ -1,6 +1,6 @@
 ; build/myapp.iss
 #define MyAppName "MyApp"
-#define MyAppVersion "0.1.0"
+#define MyAppVersion "0.2.0"
 #define MyAppPublisher "Your Company"
 #define MyAppExeName "myapp.exe"
 
